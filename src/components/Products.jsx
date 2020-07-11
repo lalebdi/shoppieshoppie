@@ -14,7 +14,7 @@ export default class Products extends Component {
                 <div>
                     <b>{util.formatCurrency(product.price)}</b>
                     <button className= "btn btn-primary"
-                    onClick={(e) => this.props.handleAddToCard(e, product)}>Add To Cart</button>
+                    onClick={(e) => this.props.handleAddToCart(e, product)}>Add To Cart</button>
                 </div>
             </div>
             </div>

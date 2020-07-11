@@ -19,7 +19,20 @@ export default class Filter extends Component {
                     </label>
                 </div>
                 <div className="col-md-4"></div>
-                
+                <label>
+                        Filter size
+                        <select className="form-control" value={this.props.size}
+                        onChange={this.props.handleChangeSize}>
+                            <option value="">All</option>
+                            <option value="x">XS</option>
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                            
+                        </select>
+                    </label>
             </div>
         )
     }
