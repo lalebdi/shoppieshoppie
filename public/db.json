@@ -1,0 +1,94 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "sku": 18644119330491312,
+        "title": "Thick Cut Bacon",
+        "description": "Thick Cut Bacon",
+        "availableSizes": ["X", "L", "XL", "XXL"],
+        "price": 10,
+        "isFreeShipping": true
+      },
+  
+      {
+        "id": 2,
+        "sku": 11854078013954528,
+        "title": "Red Wine Braised Smoked Brisket",
+        "description": "Wine Braised Smoked Brisket",
+        "availableSizes": ["X", "M", "L"],
+        "price": 14.9,
+        "isFreeShipping": true
+      },
+  
+      {
+        "id": 3,
+        "sku": 876661122392077,
+        "title": "Delicious Whole Wheat Crepes",
+        "description": "Whole Wheat Crepes",
+        "availableSizes": ["X", "M", "L"],
+        "price": 14,
+        "isFreeShipping": true
+      },
+  
+      {
+        "id": 4,
+        "sku": 9197907543445677,
+        "title": "Canadian Salmon Caviar",
+        "description": "Salmon Caviar",
+        "availableSizes": ["XL"],
+        "price": 25.9,
+        "isFreeShipping": false
+      },
+  
+      {
+        "id": 5,
+        "sku": 10547961582846888,
+        "title": "Red Sauce Pasta",
+        "description": "Pasta",
+        "availableSizes": ["X", "L", "XL"],
+        "price": 10.9,
+        "isFreeShipping": false
+      },
+  
+      {
+        "id": 6,
+        "sku": 6090484789343891,
+        "title": "Smoked Sausage",
+        "description": "Smoked Sausage",
+        "availableSizes": ["XL", "XXL"],
+        "price": 49.9,
+        "isFreeShipping": false
+      },
+  
+      {
+        "id": 7,
+        "sku": 18532669286405342,
+        "title": "Tender Smoked Ribs",
+        "description": "Smoked Ribs",
+        "availableSizes": ["S"],
+        "style": "St.Louis",
+        "price": 22.5,
+        "isFreeShipping": true
+      },
+  
+      {
+        "id": 8,
+        "sku": 5619496040738316,
+        "title": "San Francisco Sourdough Bread",
+        "description": "Sourdough Bread",
+        "availableSizes": ["XL"],
+        "style": "San Francisco",
+        "price": 18.7,
+        "isFreeShipping": false
+      },
+      {
+        "id": 9,
+        "sku": 11600983276356165,
+        "title": "Grilled Cheese",
+        "description": "Grilled Cheese",
+        "availableSizes": ["L", "XL"],
+        "price": 4.9,
+        "isFreeShipping": true
+      }
+    ]
+  }
