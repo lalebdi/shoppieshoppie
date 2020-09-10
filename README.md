@@ -1,5 +1,6 @@
 This is a failed shopping cart project.
-The issue is the cartItem array is not recognized
+The issue is the cartItem array is not recognized so the length method is not working
+will be working on it in the future
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
