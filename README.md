@@ -1,4 +1,6 @@
 This is a failed shopping cart project.
+The issue is the cartItem array is not recognized
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
