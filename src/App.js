@@ -13,9 +13,10 @@ class  App extends Component  {
     this.handleAddToCart = this.handleAddToCart.bind(this)
     this.handleChangeSize= this.handleChangeSize.bind(this)
     this.handleRemoveFromCart = this.handleRemoveFromCart(this)
+    
   }
-  componentWillMount(){
-    fetch("http://localhost:8001/products").then(res => res.json())
+  componentDidMount(){
+    fetch("http://localhost:8005/products").then(res => res.json())
     .then(data => this.setState({
       products:data,
       filteredProducts:data
@@ -67,7 +68,7 @@ class  App extends Component  {
   }
   handleRemoveFromCart(e, item){
     this.setState(state=>{
-      const cartItems = state.cartItems.filter(elm => elm.id!= item.id)
+      const cartItems = state.cartItems.filter(elm => elm.id!== item.id)
         localStorage.setItem('cartItems' , cartItems);
       return {cartItems}
     })
