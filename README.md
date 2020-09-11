@@ -5,19 +5,12 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">React Shoppingcart</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    This project needs help
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    
   </p>
 </p>
 
@@ -29,14 +22,10 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 
@@ -49,18 +38,19 @@ This is a failed React shopping cart project.
 
 
 Here's why:
-* The issue is the cartItem array is not recognized so the length method is not working
-* will be working on it in the future
+* The issue is the cartItem array is not recognized so the length method is not working.
+* Haven't started the redux yet!!
+* will be working on it in the future.
 *  :smile:
 
 
 
 ### Built With
 
-* [React]
-* [Redux]
-* [JSON server]
-* [materialize css]
+* React
+* Redux
+* JSON server
+* materialize css
 
 
 
