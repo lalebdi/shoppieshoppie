@@ -34,7 +34,7 @@
 
 
 
-This is a failed React shopping cart project.
+This is a failed React shopping cart project. The cartItems array in the basket is not recongized as an array so the length method is not working 🙅🏼‍♀️
 
 
 Here's why:
